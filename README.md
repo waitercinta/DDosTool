@@ -3,7 +3,7 @@
 
 # How to use?
 
-- firstlinstall python.
+- firstly install python.
 
 #linux/Termux
 
@@ -19,6 +19,7 @@ command
 #window 7,8,10
 
 - Install python dan paste di path variable
+- cd file ddostool
 - Run In CMD DDosTool.py
 
 #window10
